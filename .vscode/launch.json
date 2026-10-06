@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Blockopolis NBT Editor Release",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/home/spectral/Documents/EngineProjects/BlockopolisNBTEditor/bin/Release-linux-x86_64/",
+      "program": "/home/spectral/Documents/EngineProjects/BlockopolisNBTEditor/bin/Release-linux-x86_64/BlockopolisNBTEditor",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "build"
+    },
+    {
+      "name": "Blockopolis NBT Editor Debug",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/home/spectral/Documents/EngineProjects/BlockopolisNBTEditor/bin/Debug-linux-x86_64/",
+      "program": "/home/spectral/Documents/EngineProjects/BlockopolisNBTEditor/bin/Debug-linux-x86_64/BlockopolisNBTEditor",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "build"
+    }
+  ]
+}

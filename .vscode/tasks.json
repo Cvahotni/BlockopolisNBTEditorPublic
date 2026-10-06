@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "premake_build",
+            "type": "shell",
+            "command": "${workspaceFolder}/premake5 gmake2"
+        },
+        {
+            "label": "build_debug_linux",
+            "type": "shell",
+            "command": "make --jobs=10 config=debug_linux-x64",
+            "dependsOn": "premake_build"
+        },
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "make --jobs=10 config=release_linux-x64",
+            "dependsOn": "build_debug_linux"
+        }
+    ]
+}
