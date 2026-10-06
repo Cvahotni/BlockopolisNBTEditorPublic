@@ -1,0 +1,40 @@
+#include <iostream>
+#include <algorithm>
+#include <functional>
+#include <thread>
+#include <utility>
+#include <memory>
+#include <random>
+#include <chrono>
+#include <atomic>
+#include <mutex>
+#include <shared_mutex>
+#include <filesystem>
+#include <variant>
+#include <condition_variable>
+
+#include <string>
+#include <stack>
+#include <queue>
+#include <deque>
+#include <array>
+#include <vector>
+#include <list>
+#include <set>
+#include <map>
+#include <unordered_set>
+#include <unordered_map>
+#include <bitset>
+#include <execution>
+#include <iomanip>
+
+#include <cstdio>
+#include <cstddef>
+#include <cstdint>
+#include <climits>
+#include <cmath>
+#include <cctype>
+#include <cstring>
+
+#include <fstream>
+#include <sstream>
