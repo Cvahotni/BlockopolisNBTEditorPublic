@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/spectral/Documents/EngineProjects/BlockopolisNBTEditor/bin/Release-linux-x86_64/",
-      "program": "/home/spectral/Documents/EngineProjects/BlockopolisNBTEditor/bin/Release-linux-x86_64/BlockopolisNBTEditor",
+      "cwd": "${workspaceFolder}/bin/Release-linux-x86_64/",
+      "program": "${workspaceFolder}/bin/Release-linux-x86_64/BlockopolisNBTEditor",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
@@ -28,8 +28,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/spectral/Documents/EngineProjects/BlockopolisNBTEditor/bin/Debug-linux-x86_64/",
-      "program": "/home/spectral/Documents/EngineProjects/BlockopolisNBTEditor/bin/Debug-linux-x86_64/BlockopolisNBTEditor",
+      "cwd": "${workspaceFolder}/bin/Debug-linux-x86_64/",
+      "program": "${workspaceFolder}/bin/Debug-linux-x86_64/BlockopolisNBTEditor",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
