@@ -43,8 +43,8 @@ public:
         double dirFraction[3];
 
         dirFraction[0] = std::fabs(direction.X()) > 0.0 ? 1.0 / direction.X() : 0.0;
-        dirFraction[1] = std::fabs(direction.X()) > 0.0 ? 1.0 / direction.Y() : 0.0;
-        dirFraction[2] = std::fabs(direction.X()) > 0.0 ? 1.0 / direction.Z() : 0.0;
+        dirFraction[1] = std::fabs(direction.Y()) > 0.0 ? 1.0 / direction.Y() : 0.0;
+        dirFraction[2] = std::fabs(direction.Z()) > 0.0 ? 1.0 / direction.Z() : 0.0;
 
         double t1 = (aabb.min.X() - origin.X()) * dirFraction[0];
         double t2 = (aabb.max.X() - origin.X()) * dirFraction[0];
